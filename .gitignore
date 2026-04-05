@@ -1,0 +1,13 @@
+# Binários
+*.exe
+openclaude-bridge
+
+# Pastas Integras (Projetos de terceiros que não queremos no nosso repo)
+openclaude-main/
+meu-agente-go/
+node_modules/
+
+# Logs e Ambientes
+.env
+debug.log
+error.log
