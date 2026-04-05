@@ -27,6 +27,10 @@ ollama run qwen2.5-coder:7b
 # Ou qualquer LLM forte que preferir (Recomendado: Modelos com bom suporte a Tool-Calling como Qwen 2.5 Coder, Llama 3.1 8b, Mistral, etc).
 ```
 
+> [!IMPORTANT]
+> **Dependência de Estrutura:** Para o funcionamento correto desta bridge com o Claude CLI, certifique-se de que a estrutura de pastas contém a pasta `src` do projeto original no diretório raiz, pois a CLI pode realizar checagens de integridade ou ler arquivos de configuração baseados nessa trilha.
+
+
 ## 🛠️ Como Usar (Conectando a Bridge no Claude)
 
 Rode o serviço:
